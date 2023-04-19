@@ -6,9 +6,9 @@ ex::myNameIs="loki"
 snake case:all words start with small and seperated by underscore
 ex::my_name_is="loki"
 
-#a,b,c=1,2,3
+a,b,c=1,2,3
 a=b=c=1
-patterns
+#patterns
 ---------
 for i in range(1,6):
   for j range(1,i+1):
@@ -51,10 +51,10 @@ else:
 else:
   print("not palindrome")
   
-  // floor division----->return integer
-  / ------->return float
-  #armstrong
+// floor division----->return integer
+/ ------->return float
   
+#armstrong  
 a=int(input("enter: "))
 b=len(str(a))
 temp=a
@@ -73,8 +73,8 @@ output
 enter: 153
 power 3
 armstrong
-#area
 
+#area
 length=int(input())
 width=int(input())
 print("rectangle ",length*width)
@@ -83,8 +83,8 @@ h=int(input())
 print("triangle",((1/2)*b*h))
 s=int(input())
 print("square",s*s)
-#swap 3
 
+#swap 3
 a=int(input("enter: "))
 b=int(input())
 c=int(input())
@@ -108,3 +108,16 @@ else:
              print(b," ",a,"",c)
         else:
              print(a," ",b,"",c)
+             
+#fibonacci
+a=0
+b=1
+n=int(input("enter upto print"))
+c=a+b
+print(a,end=" ")
+print(b,end=" ")
+while c<=n:
+    print(c,end=" ")
+    a=b
+    b=c
+    c=a+b
