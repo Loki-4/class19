@@ -67,5 +67,8 @@ if temp==sum:
     print("armstrong")
 else:
     print("not armstrong")
-    
-  
+output
+-------
+enter: 153
+power 3
+armstrong
